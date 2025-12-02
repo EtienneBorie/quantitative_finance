@@ -1,5 +1,5 @@
 import pandas as pd
-from modules.backend import market_prices
+from Modules.backend import market_prices
 
 def get_ishares_tickers() -> list[str]:
     return ["IVV", "AGG", "IEMG", "IJR"]
